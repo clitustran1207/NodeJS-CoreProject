@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-practice",
+  "version": "1.0.0",
+  "description": "core project",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "author": "summerlearntocode",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
